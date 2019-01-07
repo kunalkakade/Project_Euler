@@ -11,6 +11,11 @@ def check(a):
     for i in range(1,20):
         if a%i != 0:
             return True
+    print(a)
+    return False
 
 
-while end:
+while check(start):
+    start = start+ 1
+
+# 232792560
